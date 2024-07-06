@@ -4,8 +4,112 @@
   margin: 0;
   padding: 0;
 }
-#Hero {
+.button-container{
+  text-align: center;
+}
+.button{
+padding: 17px 26px 17px 26px;
+margin: 32px 0px;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 4px;
+background: rgb(82, 195, 3);
+border: none;
+
+}
+#hero {
   height: 652px;
- background-image: url(../assets/hero-bg.png);
+ background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
  background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+#hero .hero-content{
+  width: 726px;
+}
+#hero .hero-content .subtitle{
+  opacity: 0.8;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#hero .hero-content .title{
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+#hero .hero-content .description{
+  opacity: 0.7;
+   color: rgb(255, 255, 255);
+   font-family: Work Sans;
+   font-size: 12.5px;
+   font-weight: 400;
+   line-height: 17px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-bottom: 18px;
+}
+#card-box {
+  width: 937px;
+  margin: 60px auto;
+}
+#card-box .title{
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box .subtitle {
+  opacity: 0.6;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#card-box{
+ width: 937px;
+ margin: 110px;
+}
+.card-container {
+  margin-top: 35px;
+}
+.card{
+  max-width: 255px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+}
+.card .image-box{
+  max-width: 255px;
+}
+.card .image-box img{
+  with: 100%
+}
+.card .shop {
+  
 }
